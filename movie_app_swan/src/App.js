@@ -16,7 +16,7 @@ Food.propTypes = {
   name: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
   //rating: PropTypes.string.isRequired
-  rating: PropTypes.string
+  rating: PropTypes.number
 };
 /* #2.1
 jsx는 단지 HTML + JavaScript
